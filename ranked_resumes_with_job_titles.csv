@@ -1,0 +1,157 @@
+Id,FullName,EmailAddress,ContactNumber,ExternalId,ResumeFileName,Json,JDId,Skills,score,resumefile,url,DOB,PlaceOfBirth,Nationality,Education,CreatedOn,JobTitle
+135,Muhammad Azeem,muhammad.azem03@gmail.com,923222619000,115,"### Evaluation Rationale
+The candidate's rank score of 40 is a cumulative assessment of their suitability for a School Teacher role at DESCON. Here's a detailed breakdown based on the five evaluation criteria:
+
+#### 1️⃣ Experience Score: 2
+- **Relevance to Role**: The candidate's background is rooted in AI Engineering and Electrical Engineering, with extensive experience in technical roles, which is not directly relevant to a teaching position focused on education, curriculum development, or primary/secondary school subjects.
+- **Skills Mismatch**: There are no indications of experience in teaching, pedagogical skills, or classroom management as outlined in the job description.
+
+#### 2️⃣ Company Relevance Score: 1
+- **Industry Alignment**: The candidate has experience in technical companies focusing on AI and solar technologies (Cybergen, Omecta International), which are not aligned with the educational focus of DESCON.
+- **Contextual Fit**: Prior employers and industry focus (cybersecurity and PV systems) don't provide transferable insights or practices pertinent to a teaching role.
+
+#### 3️⃣ Job Tenure Score: 2
+- **Stability**: There is a mix of short to medium-term roles, however, the roles primarily reflect engineering tasks rather than educational pursuits.
+- **Career Gaps**: The tenure in roles reflects specialization in engineering and AI, indicating a career oriented towards tech rather than teaching.
+
+#### 4️⃣ Career Progression Score: 2
+- **Progress and Upskilling**: The candidate has shown career growth within engineering roles (e.g., from AI engineer to freelancing in Python development), but there's minimal evidence of progression that would contribute to educational leadership or curriculum advancement.
+- **Development Miss**: There's no apparent progression towards educational roles or skill development related to teaching.
+
+#### 5️⃣ Reference Score: 1
+- **Lack of Educational Endorsements**: The references highlight strong technical skills but lack endorsements relevant to teaching or educational expertise.
+- **Professional Validation**: Endorsements are likely to stem from a tech and engineering context, which does not visibly translate to teaching credentials or capabilities.
+
+### Conclusion
+While the candidate excels in his engineering and AI domain, there's a significant disconnect between their profile and the requirements of a teaching position. The variance in experience, lacking direct educational interactions, company relevance, and non-alignment of career trajectories, as well as a lack of relevant endorsements, justify the consolidated rank score of 40. It suggests a mismatch for the teaching role at DESCON, focusing primarily on educational delivery and student engagement which are not part of this candidate's portfolio.",resume in json,115,"['Python', 'JavaScript (JS)', 'Machine Learning', 'Deep Learning', 'AI Agents', 'Natural Language Processing (NLP)', 'Data Science', 'Data Analysis & Visualization', 'Model Training & Fine Tuning', 'Linux OS', 'Git/Github', 'Google Cloud', 'Microsoft Azure', 'MongoDB', 'DBMS', 'MySQL', 'Generative AI Fundamentals', 'Neural Network with Keras', 'Python Essentials for MLOps', 'Multi AI Agent Systems', 'AI Implementation and Integration', 'Process Optimization', 'Web Scraping']",40,,https://talentconversationss3.s3.eu-north-1.amazonaws.com/resume_muhammad.azem03@gmail.com20250211154731.pdf,1967-03-23 10:22:31.832704+00:00,Lahore,Pakistani,Not Specified,,School Teacher Maths
+137,Muhammad Azeem,muhammad.azem03@gmail.com,923222619000,120,"### Step 1: Understanding the Problem
+- The job requires a Senior Chemical Engineer with expertise in oil and gas production and processing.
+- The candidate has a background in Electrical Engineering and AI, working primarily on AI systems and PV solar systems, with no direct chemical engineering experience in oil and gas.
+
+### Step 2: Breakdown of the Ranking Factors
+
+🔹 **(1) Experience Score (40%)**
+- The candidate has 4% experience in AI and electrical engineering, not chemical engineering. 
+- No relevant experience in oil and gas or chemical process engineering.
+- Missing NEBOSH certification and domain-specific skills.
+
+🔹 **(2) Company Relevance Score (40%)**
+- Candidate has previously worked in AI and solar energy sectors, which are not aligned with DESCON's oil and gas focus.
+- Limited prior experience in industries related to oil & gas.
+
+🔹 **(3) Job Tenure Score (60%)**
+- Stable tenure with consistent roles at OMECTA and Cybergen (2-3 years).
+- Reliable job history showing commitment.
+
+🔹 **(4) Career Progression Score (60%)**
+- Progressed from Python Developer to AI Engineer.
+- Growth noted but in different industry than required.
+
+🔹 **(5) Reference Score (40%)**
+- Publications, but lacking strong recommendations in oil and gas sector.
+- No endorsements related to chemical engineering jobs.
+
+### Step 3: Candidate vs. JD Comparison
+- Lacks chemical engineering background, oil and gas experience, and NEBOSH certification.
+- Strong AI and systems integration skills not part of JD requirements for this senior role.
+
+### Step 4: Identifying Gaps & Mismatches
+- Major gaps: No chemical engineering qualifications or experience.
+- Missing essential skills and certifications.
+
+### Step 5: Final Decision & Justification
+#### 🚫 Low Score (Candidate Not Suitable, 40 Score)
+*""The candidate received a rank score of 40 given a notable divergence from the job description requirements as a Senior Chemical Engineer in the oil and gas sector. Although they have a notable engineering background, it is primarily in AI applications, lacking the crucial oil and gas industry exposure, chemical engineering expertise, and NEBOSH certification needed. Consequently, they are not a suitable match for the position, reflecting substantial alignment gaps and industry mismatch.""*
+
+**Recommendation:**
+The candidate should focus on roles aligned with their AI and electrical engineering expertise, potentially exploring opportunities in industries that value data science, machine learning, and solar engineering. They are currently not suited for a Senior Chemical Engineer position at DESCON.",resume in json,120,"['AI Engineering', 'Machine Learning', 'Deep Learning', 'Natural Language Processing (NLP)', 'Data Science', 'Data Analysis & Visualization', 'Model Training & Fine-Tuning', 'Python Programming', 'JavaScript', 'AI Agents', 'Rego Policy Implementation', 'Google Cloud', 'Microsoft Azure', 'Linux OS', 'Git/GitHub', 'MongoDB', 'DBMS', 'MySQL', 'Web Scraping', 'Solar System Design', 'Project Management', 'API Development', 'Backend Development', 'Process Optimization', 'Adaptation to Technology', 'Problem Solving', 'Analytical Skills', 'Effective Communication']",40,,https://talentconversationss3.s3.eu-north-1.amazonaws.com/resume_muhammad.azem03@gmail.com20250211154731.pdf,1969-02-17 12:44:35.957654+00:00,Lahore,Pakistani,Not Specified,,Senior Chemical Engineer
+129,Imran Khan,imranshakeel_khan@yahoo.com,923224263947,117,"1️⃣ **Initial Problem Analysis:** The job description is for a Senior Business Developer role focused on client acquisition, strategic growth, and market expansion within the software industry. Core ranking criteria include relevant business development experience, especially in international markets, leadership capabilities, certification in client hunting, and completion of an international-level course in business development.
+
+2️⃣ **Understanding the Ranking Factors:** The experience score evaluates the candidate's past roles about the job function. The company relevance score assesses alignment with DESCON's standards and industry. Job tenure measures career stability, while the reference score considers endorsements and credibility.
+
+3️⃣ **Candidate vs. JD Comparison:** The candidate has significant technical and leadership experience in software development, a strong asset for understanding client needs and solutions. However, their experience is more technically focused than business development-oriented, with responsibilities mainly around software architecture and project management rather than direct client acquisition and market expansion. There is no clear evidence of international business development experience or relevant certifications in client acquisition.
+
+4️⃣ **Identifying Mismatches:** The candidate lacks explicit business development experience, particularly in international markets, a critical requirement for the role. They appear to have no certification in client hunting or completion of a relevant international business development course. These gaps suggest a potential mismatch for a role that demands strategic business development.
+
+5️⃣ **Final Decision & Justification:** The candidate's rank score of 70 suggests partial suitability for the Senior Business Developer role based on technical leadership and client management experience. However, the lack of direct business development expertise, relevant certifications, and industry-focused courses prevent a higher ranking. While they may contribute to technical strategy, key business expansion competencies are insufficiently demonstrated.",resume in json,117,"['Software Architecture & Design', 'Technical Leadership', 'Client Relationship Management', 'Project Management', 'Technology Stack Selection (Python, React Native, MongoDB, .Net Core)', 'AI & Data Management', 'Cloud Architecture (AKS, Docker, Azure, Cosmos DB)', 'Compliance Solutions Development', 'Technical Training & Development', 'Python', 'Python Flask', 'React Native', 'React.js', 'Angular', 'Node.js', '.Net Core', '.Net Framework', 'TypedScript', 'JavaScript', 'Socket.io', 'SignalR', 'MVC', 'C#', 'Entity Framework', 'WebForms', 'WinForms', 'Java', 'Kotlin', 'Microservices', 'Web APIs', 'WCF', 'Oracle', 'MongoDB', 'Postgres', 'Greenplum', 'MySQL', 'SQL Server', 'Keycloak', 'Microsoft Identity Server', 'Docker', 'Kubernetes', 'Minikube', 'Azure DevOps', 'Jenkins', 'AKS (Azure Kubernetes Service)', 'SSRS (SQL Server Reporting Services)', 'Crystal Reports', 'Jira', 'LINQ to SQL', 'Web Services', 'Telerix Tools']",70,,https://talentconversationss3.s3.eu-north-1.amazonaws.com/resume_imranshakeel_khan@yahoo.com20250210085949.pdf,1970-12-25 19:00:00+00:00,Lahore,Pakistani,MSc Computer Science,,Senior Business Developer - Software Development
+131,Muhammad Imran Shakeel Khan,talent.demo@irinatechdigital.ai,3224263947,112,"1️⃣ **Initial Problem Analysis:** The key criteria for the HR Manager position at DESCON include strategic recruitment capabilities, leadership skills in team management, and experience in the technology sector.
+
+2️⃣ **Understanding the Ranking Factors:** Experience score is impacted by relevance to HR and recruitment roles, company relevance looks for alignment with DESCON's standards, tenure reflects stability, and references indicate credibility.
+
+3️⃣ **Candidate vs. JD Comparison:** The candidate's resume showcases extensive experience in technical leadership and project management, primarily in engineering roles, with no direct mention of HR management roles or certifications such as SHRM-CP or PHR mentioned in the JD.
+
+4️⃣ **Identifying Mismatches:** The key gaps include the absence of HR-specific roles and certifications, lack of demonstrated experience in tech recruitment, and unfamiliarity with HR compliance issues critical for the HR Manager role.
+
+5️⃣ **Final Decision & Justification:** The candidate's rank score of 60 indicates some leadership capability and tech sector experience, but significant gaps in HR-specific skills and experience prevent them from being a strong fit for the Senior HR Manager role at DESCON. The lack of direct HR experience and necessary certifications significantly impacts their suitability for this particular position.",resume in json,112,"['Software Architecture & Design', 'Technical Leadership', 'Client Relationship Management', 'Project Management', 'Technology Stack Selection', 'AI & Data Management', 'Cloud Architecture', 'Compliance Solutions Development', 'Technical Training & Development', 'Python', 'React Native', 'MongoDB', '.Net Core', 'AKS', 'Docker', 'Azure', 'Cosmos DB', 'Angular 8', 'Node.js', '.Net Core', 'Azure Cosmos DB', 'SQL Server', 'Hangfire', 'ASP.Net MVC', 'Razor Engine', 'jQuery', 'SQL Server 2012', 'Entity Framework', 'Code First', 'Angular.js', 'Web API', 'Windows Services', 'SSRS', 'ASP.Net WebForms', 'WinForms 4.0', 'SQL Server 2008', 'Web Services', 'Telerix Tools', 'Object-Oriented Methods', 'Microsoft Certified Cloud Architect', 'Microsoft Certified Technology Specialist', 'Microsoft Certified Professional Developer', 'Microsoft Certified Solution Developer', 'Microsoft Certified Azure Architect', 'Development Tools & Frameworks', 'Python Flask', 'React.js', 'Angular', 'Node.js', '.Net Framework', 'TypeScript', 'JavaScript', 'Socket.io', 'SignalR', 'Kotlin', 'Microservices', 'Web APIs', 'WCF', 'Oracle', 'Databases: MongoDB, Postgres, Greenplum, MySQL, SQL Server, Keycloak, Oracle', 'Security/Auth Tools: Microsoft Identity Server, Keycloak', 'DevOps & Cloud Tools: Docker, Kubernetes, Minikube, Azure DevOps, Jenkins, AKS (Azure Kubernetes Service)', 'Reporting Tools: SSRS (SQL Server Reporting Services), Crystal Reports', 'Version Control: Jira', 'Other Technologies: LINQ to SQL, Web Services, Telerix Tools, WinForms']",60,,https://talentconversationss3.s3.eu-north-1.amazonaws.com/resume_talent.demo@irinatechdigital.ai20250213051253.pdf,1994-08-21 08:14:02.598546+00:00,Lahore,Pakistani,Not Specified,,Senior HR Manager
+132,Muhammad Imran Shakeel Khan,talent.demo@irinatechdigital.ai,923224263947,111,"1️⃣ Initial Problem Analysis: The primary focus is on finding candidates with expertise in backend development using Node.js and Nest.js, along with creating scalable APIs and ensuring performance and security. Other important factors include relevant experience, industry alignment with DESCON's needs in backend solutions, and the ability to integrate with front-end elements.
+
+2️⃣ Understanding the Ranking Factors: The candidate's experience is evaluated based on previous roles' relevance, industry alignment, job tenure, and references or endorsements. A high experience score would reflect extensive relevant experience, while alignment with the hiring company's industry contributes to the company relevance score. Job tenure score captures stability, where longer stints at relevant roles are rated higher. Reference scores would consider endorsements and certifications.
+
+3️⃣ Candidate vs. JD Comparison: The candidate has substantial experience in software architecture and leadership roles, with notable expertise in cloud architecture and traditional backend technologies. However, their expertise predominantly involves various technologies like .Net, Python, and React Native rather than specifically focusing on Node.js and Nest.js. They also have a diverse background in multiple industries.
+
+4️⃣ Identifying Mismatches: The primary gap is the candidate's lack of explicit experience with Node.js and Nest.js, which are critical for this role. Despite their strong technical and leadership background, the candidate's exposure seems more inclined towards cloud solutions, compliance, and AI, rather than backend development focused on the specified tech stack. The absence of relevant certifications in Node.js or Nest.js is also a notable gap.
+
+5️⃣ Final Decision & Justification: The candidate earned a rank score of 50 based on their extensive software development and leadership experience. However, the score is limited due to their lack of direct Node.js and Nest.js expertise, which are essential for the backend developer role at DESCON. Despite strong credentials and technical skills, they do not sufficiently meet the key technological requirements for this position.",resume in json,111,"['Software Architecture & Design', 'Technical Leadership', 'Client Relationship Management', 'Project Management', 'Technology Stack Selection (Python, React Native, MongoDB, .Net Core)', 'AI & Data Management', 'Cloud Architecture (AKS, Docker, Azure, Cosmos DB)', 'Compliance Solutions Development', 'Technical Training & Development', 'Python', 'React Native', 'React.js', 'Angular', 'Node.js', '.Net Core', '.Net Framework', 'TypeScript', 'JavaScript', 'Socket.io', 'SignalR', 'MVC', 'C#', 'Entity Framework', 'WebForms', 'WinForms', 'Java', 'Kotlin', 'Microservices', 'Web APIs', 'WCF', 'Oracle', 'MongoDB', 'Postgres', 'Greenplum', 'MySQL', 'SQL Server', 'Keycloak', 'Microsoft Identity Server', 'DevOps & Cloud Tools', 'Docker', 'Kubernetes', 'Minikube', 'Azure DevOps', 'Jenkins', 'AKS (Azure Kubernetes Service)', 'SSRS (SQL Server Reporting Services)', 'Crystal Reports', 'Jira', 'LINQ to SQL', 'Web Services', 'Telerix Tools']",50,,https://talentconversationss3.s3.eu-north-1.amazonaws.com/resume_talent.demo@irinatechdigital.ai20250213051253.pdf,1989-04-23 19:00:00+00:00,Lahore,Pakistani,MSc Computer Science,,Backend Developer (Node.js & Nest.js Expert)
+134,Muhammad Azeem,muhammad.azem03@gmail.com,923222619000,112,"### Evaluation of Candidate's Rank Score
+
+#### Step 1: Understanding the Problem
+The job description for the Senior HR Manager role emphasizes extensive HR experience, especially in tech talent acquisition, senior management experience, and expertise in labor laws. The candidate's profile presents a background in AI engineering, data analysis, and AI model development, which is not directly aligned with HR management roles.
+
+#### Step 2: Breakdown of the Ranking Factors
+
+1. **Experience Score (40%)**
+    - The candidate has considerable experience in AI engineering but lacks direct HR management or tech recruitment experience. This is a significant gap given the role's requirements.
+    - Their technical skills in AI and data science are not directly relevant to HR tasks such as recruitment strategies or compliance.
+    - **Score**: 2/5
+
+2. **Company Relevance Score (20%)**
+    - The previous companies, Cybergen and Omecta, focus on AI-driven solutions and solar systems rather than HR or manufacturing industries like DESCON.
+    - There’s minimal alignment between the candidate’s experience and DESCON’s industry, which weakens the relevance.
+    - **Score**: 1/5
+
+3. **Job Tenure Score (60%)**
+    - The candidate has demonstrated stability with longer job tenures, especially in their role at Omecta and ongoing role at Cybergen.
+    - There are no unusual gaps or frequent short-term positions that raise concerns about commitment.
+    - **Score**: 3/5
+
+4. **Career Progression Score (60%)**
+    - While the candidate has advanced technical skills, their career progression is within AI engineering rather than HR or management roles.
+    - There is some growth depicted in terms of technical responsibilities, like developing AI systems, but not in HR functions or leadership.
+    - **Score**: 3/5
+
+5. **Reference Score (40%)**
+    - The profile lists academic publications and project work, but lacks specific endorsements or references applicable to HR management credibility.
+    - Publications demonstrate technical expertise but do not contribute significantly to the HR field.
+    - **Score**: 2/5
+
+#### Step 3: Candidate vs. JD Comparison
+The candidate's AI and engineering background does not directly match the Senior HR Manager role, which requires extensive HR experience, tech recruitment, and compliance expertise. They possess advanced AI, data analysis skills, and engineering certification, which are less relevant for the human resources function outlined in the job description.
+
+#### Step 4: Identifying Gaps & Mismatches
+- **Missing Skills/Certifications**: The candidate lacks SHRM-CP or PHR certification and exhibits no history in leadership of HR teams or experience with labor law compliance.
+- **Domain Experience**: The resume does not indicate past roles involving HR strategies or tech hiring practices critical for the position.
+- **Alternative Skills**: While the candidate shows strong skills in project management and problem-solving, these do not compensate for the key HR requirements.
+
+#### Step 5: Final Decision & Justification
+🚫 **Low Score (Candidate Not Suitable, Below 40 Score)**
+The candidate received a rank score of **40**, reflecting significant deviations from the job description. The strong background in AI and technical roles lacks alignment with the HR domain, critical certifications, and relevant management experience needed for the Senior HR Manager position at DESCON.
+
+**Recommendation**: This candidate is not suitable for the HR Manager position due to fundamental gaps in HR-specific knowledge and experience. Consider candidates with demonstrable HR leadership, tech hiring expertise, and industry-relevant background.",resume in json,112,"['AI Models Design and Optimization', 'Natural Language Processing (NLP)', 'Deep Learning and Model Training', 'Rego Policy and Guardrails for AI Systems', 'Data Analysis and Visualization', 'Machine Learning with Python', 'Python for MLOps', 'Generative AI Fundamentals', 'AI Integration and Implementation', 'AI-Powered Database Retrieval', 'Web Scraping and Data Processing', 'Process Optimization and Automation', 'Time Management and Project Prioritization', 'Adaptability to Evolving Technologies', 'Effective Communication and Collaboration', 'Problem-Solving and Analytical Thinking', 'Deployment of Scalable AI Systems', 'Cybersecurity AI Solutions', 'Predictive Analytics and Decision Making', 'PV Solar System Design and Implementation']",40,,https://talentconversationss3.s3.eu-north-1.amazonaws.com/resume_muhammad.azem03@gmail.com20250211154731.pdf,1984-10-21 10:58:43.162882+00:00,Lahore,Pakistani,Not Specified,,Senior HR Manager
+130,Muhammad Imran Shakeel Khan,talent.demo@irinatechdigital.ai,923224263947,117,"1️⃣ **Initial Problem Analysis**: The core ranking criteria include relevance of experience, company relevance, job tenure, and references. For this role, key areas are international business development experience, client acquisition skills, relevant certifications, and strategic planning in the software development industry.
+
+2️⃣ **Understanding the Ranking Factors**: The experience score assesses how well the candidate's past roles align with the job requirements. The company relevance score looks at how closely past employers align with DESCON's industry and standards. Job tenure considers stability and duration in previous roles. The reference score evaluates endorsements and credibility which, in this context, is inferred from recognitions and certifications.
+
+3️⃣ **Candidate vs. JD Comparison**: The candidate has extensive experience in software architecture and technical leadership but lacks specific international business development experience and client acquisition focus required by DESCON. Their certifications in technology and cloud architecture are notable, but they lack the specified 'Client Hunting' certification and a course in international business development.
+
+4️⃣ **Identifying Mismatches**: While the candidate has leadership roles and strong technical credentials, they do not have significant experience in business development or in international markets. The role demands specialized client acquisition strategies and business development planning, which is not evident in the candidate's profile. Additionally, the lack of a relevant certification or course in business development is a critical gap.
+
+5️⃣ **Final Decision & Justification**: The candidate's rank score of 70 reflects strong technical leadership and project management experience but highlights a misalignment with the specific business development and client acquisition requirements of the position. Although they display career stability and hold numerous certifications, the absence of direct business development experience, required certifications, and international market exposure justifies a mid-level score, indicating moderate suitability for the role.",resume in json,117,"['Software Architecture & Design', 'Technical Leadership', 'Client Relationship Management', 'Project Management', 'Python', 'React Native', 'MongoDB', '.Net Core', 'AI & Data Management', 'Cloud Architecture', 'AKS', 'Docker', 'Azure', 'Cosmos DB', 'Compliance Solutions Development', 'Technical Training & Development', 'Data Management', 'DevOps & Cloud Tools', 'Kubernetes', 'Jenkins', 'AKS Clusters', 'Microservices', 'Web APIs', 'WCF', 'Security/Auth Tools', 'Microsoft Identity Server', 'Keycloak', 'SSRS (SQL Server Reporting Services)', 'Crystal Reports', 'Version Control']",70,,https://talentconversationss3.s3.eu-north-1.amazonaws.com/resume_talent.demo@irinatechdigital.ai20250213051253.pdf,1996-04-14 19:00:00+00:00,Lahore,Pakistani,MSc Computer Science,,Senior Business Developer - Software Development
+136,Muhammad Imran Shakeel Khan,imranshakeel_khan@yahoo.com,3224263947,112,"1️⃣ Initial Problem Analysis: The job description for the Senior HR Manager position at DESCON emphasizes extensive experience in HR, particularly in recruitment and leadership roles, as well as industry-specific expertise in technology. Key ranking criteria include experience in HR management, tenure in leadership roles, company and industry relevance, and possession of necessary HR certifications.
+
+2️⃣ Understanding the Ranking Factors: The candidate's score is influenced by their HR experience and their fit for senior management roles, which includes an assessment of past job roles and tenure, alignment with the company's industry standards, and endorsements or certifications linking them to HR competence.
+
+3️⃣ Candidate vs. JD Comparison: The candidate's profile appears to focus primarily on chemical engineering and participation in relevant engineering societies, without direct HR experience or leadership roles in human resources. This presents a gap in the strategic HR leadership and tech recruitment experience sought by the JD. Additionally, there's no mention of HR certifications (SHRM-CP or PHR), which are crucial per the JD.
+
+4️⃣ Identifying Mismatches: The candidate lacks significant HR experience and senior HR management exposure, which are essential for the role at DESCON. Their current educational background and professional engagements are centered around chemical engineering, lacking the technological sector focus required by the JD. Furthermore, the absence of HR certifications significantly impacts the alignment score.
+
+5️⃣ Final Decision & Justification: The candidate received a rank score of 30 due to an evident misalignment with the job description. The focus of their skills and experiences is rooted in engineering rather than human resources, lacking the required senior HR management expertise and industry-specific knowledge essential for the role. Therefore, they are not suitable for the Senior HR Manager position at DESCON.",resume in json,112,"['Leadership', 'Communication', 'Management', 'Problem Solving', 'Team Work / Team Management', 'Microsoft Offices', 'MATLAB / Simulink', 'ASPEN / PTC Creo', 'VOS Viewer', 'Microsoft Visio', 'Zoom', 'Microsoft Teams', 'Google Meet', 'Voov', 'Wonder Share Filmora 9', 'English (Intermediate)', 'Urdu (Fluent)', 'Punjabi (Fluent)']",30,,,1987-10-23 09:03:09.874428+00:00,Lahore,Pakistani,Not Specified,,Senior HR Manager

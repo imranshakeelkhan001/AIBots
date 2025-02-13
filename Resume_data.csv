@@ -1,0 +1,25 @@
+Id,FullName,EmailAddress,ContactNumber,ExternalId,ResumeFileName,Json,JDId,Skills
+3,string,string,string,0,-,string,0,['string']
+4,string,string,string,0,-,string,0,['string']
+5,string,string,string,0,-,string,0,['string']
+6,string,string,string,0,string,string,0,['string']
+7,string,string,string,0,string,string,0,['string']
+8,string,string,string,0,string,string,0,['string']
+9,string,string,string,0,string,string,0,['string']
+10,string,string,string,0,string,string,0,['string']
+11,string,string,string,0,string,string,0,['string']
+12,string,string,string,0,string,string,0,['string']
+13,string,string,string,0,string,string,0,['string']
+14,imran,imranshakeelkhan@gmail.com,sdf,11,sdfasldfslslslslsslccl,{str:sss},11,['sks']
+15,string,string,string,0,string,string,0,['string']
+16,111,111,22,111,1111ssss,222,111,['22']
+17,string,string,string,0,string,string,0,['string']
+18,Azm,imranshakeelkhan@gmail.com,124123,1,Not provided,Not provided,38,"['sp{M,S,c,"" "",i,n,"" "",M,a,t,h,e,m,a,t,i,c,s,"","","" "",5,"" "",y,e,a,r,s,"" "",o,f,"" "",e,x,p,e,r,i,e,n,c,e,"","","" "",V,a,l,i,d,"" "",t,e,a,c,h,i,n,g,"" "",c,e,r,t,i,f,i,c,a,t,i,o,n}']"
+19,Imran,imran@gmail.com,235134234,1,Not provided,Uploaded resume,1,"['M', 'a', 's', 't', 'e', 'r', ""'"", 's', ' ', 'd', 'e', 'g', 'r', 'e', 'e', ' ', 'i', 'n', ' ', 'M', 'a', 't', 'h', 'e', 'm', 'a', 't', 'i', 'c', 's', ',', ' ', '5', ' ', 'y', 'e', 'a', 'r', 's', ' ', 'o', 'f', ' ', 'e', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e', ',', ' ', 'T', 'e', 'a', 'c', 'h', 'i', 'n', 'g', ' ', 'C', 'e', 'r', 't', 'i', 'f', 'i', 'c', 'a', 't', 'i', 'o', 'n']"
+20,Osama,osamaaziz317@gmail.com,03039713367,1,Candidate has relevant skills for the Maths Teacher position.,"{""Name"":""Osama"",""Email"":""osamaaziz317@gmail.com"",""Location"":""pakistan""}",1,"['m', 'a', 't', 'h', ' ', 't', 'e', 'a', 'c', 'h', 'e', 'r']"
+21,Osama,osamaaziz317@gmail.com,03039713367,1,Candidate has relevant skills in maths teaching.,"{""Name"":""Osama"",""Email"":""osamaaziz317@gmail.com"",""Location"":""pakistan""}",1,"['m', 'a', 't', 'h', 's', ' ', 't', 'e', 'a', 'c', 'h', 'i', 'n', 'g']"
+22,Osama,tariq512@yahoo.com,3217741667,1,Not enough information to rank.,"{""Name"": ""Khawaja Tariq Mahmood"", ""Email"": ""tariq512@yahoo.com"", ""Contact Number"": ""3217741667""}",1,"['l', 'i', 'n', 'e', 'a', 'r', ' ', 'a', 'l', 'g', 'e', 'b', 'r', 'a']"
+23,MUHAMMAD IMRAN SHAKEEL KHAN,imranshakeel_khan@yahoo.com,923224263947,75,Candidate has relevant AutoCAD skills.,[Resume content here],75,"['A', 'u', 't', 'o', 'C', 'A', 'D', ' ', 's', 'k', 'i', 'l', 'l', 's']"
+24,string,string,string,0,string,string,0,['string']
+25,Osama,tariq512@yahoo.com,3217741667,56,I am intelligent,[Resume content],56,"['P', 'y', 't', 'h', 'o', 'n', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g']"
+26,Osama,osamaaziz@gmail.com,03039713367,56,"The candidate has relevant skills in Python programming, which is essential for the AI Engineer role.","Khawaja Tariq Mahmood, Email:tariq512@yahoo.com, Contact Number: 3217741667",56,"['P', 'y', 't', 'h', 'o', 'n', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g']"
