@@ -104,7 +104,7 @@ def run_csv_query(query):
     Function to create and run a CSV agent with a given query.
     """
     # Initialize the OpenAI LLM
-    llm = ChatOpenAI(model="gpt-4", temperature=0)
+    llm = ChatOpenAI(model="gpt-4o-2024-08-06", temperature=0)
 
     # Create the CSV agent
     csv_agent = create_csv_agent(
@@ -275,6 +275,7 @@ async def hr_chatbot(query, id):
         chat_history = get_chat_by_id(int(id), csv_file="hr_chat_history.csv")
         for msg in chat_history:
             message.append(msg)
+        print("here is message",message)
         new_rol = {"role": "user", "content": query}
         message.append(new_rol)
     elif not int(id) in list(columns):

@@ -156,7 +156,8 @@ def email(fullname, emailaddress, phone_number, skills, resumejson, jdid, rank, 
         "resumeJSON": str(resumejson),
         "jdId": str(jdid),
         "rank": str(rank),
-        "rankReason": str(rankReason)
+        "rankReason": str(rankReason),
+
     })
     headers = {
         'accept': 'text/plain',
@@ -301,6 +302,9 @@ you are equipped with a tools. please make sure to call the tool 'email' once yo
 
 Follow this structure to handle new user interactions. For each new query, guide the user through the job application process using clear, concise, and conversational language.
 Note: Don't ask the user for email address and phone number when it is already in the chat data. Instead of asking irrelevant questions when you think the chat is complete then call the email tool.
+
+Please Note: You will not entertain any other query other than above.e.g if user ask what is ai etc you will not respond to that. you are specific to this role that you only entertain the applicant.
+
 """)
 }
 
@@ -347,7 +351,7 @@ def get_chat_by_id(chat_id, csv_file="applicant_chat_history.csv"):
 def get_cv_text_by_id(csv_file, id):
     try:
         # Load the CSV file into a DataFrame
-        cv_data = pd.read_csv(csv_file)
+        cv_data = pd.read_csv(csv_file,on_bad_lines='skip')
 
         # Filter the DataFrame to find the row with the given ID
         result = cv_data[cv_data['id'] == (id)]
@@ -611,7 +615,7 @@ async def applicant_bot(query, id, file):
             #addresume(file, data['email_address'])
            # print("name is ", data['full_name'])
             # Load the existing CSV file into a DataFrame
-            cv_data = pd.read_csv("cv_text.csv")
+            cv_data = pd.read_csv("cv_text.csv",on_bad_lines='skip')
             # Define the new row to be added
             new_row = {"id": id, "data": data['resume_json']}
             # Concatenate the new row to the existing DataFrame
@@ -638,7 +642,7 @@ async def applicant_bot(query, id, file):
             file_64 = await pdf_to_base64(file)
             # print("here is base64",file_64)
             ad_resume(data['email_address'], file_64)
-            cv_data = pd.read_csv("cv_text.csv")
+            cv_data = pd.read_csv("cv_text.csv",on_bad_lines='skip')
             # Define the new row to be added
             new_row = {"id": id, "data": data['resume_json']}
             # Concatenate the new row to the existing DataFrame
@@ -675,7 +679,7 @@ async def applicant_bot(query, id, file):
         if response.choices[0].message.content:
             print(response.choices[0].message.content)
             message.append({"role": "assistant", "content": response.choices[0].message.content})
-            print(message)
+           # print(message)
             store_chat_history(message, id)  # Save chat history in the `if` block
             return {"chat": response.choices[0].message.content}
         elif str(response.choices[0].message.tool_calls[0].function.name) == 'email':

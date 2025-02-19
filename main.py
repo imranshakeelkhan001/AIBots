@@ -11,6 +11,7 @@ from routes.resume_similarity import router as resume_sim
 from routes.feedback_offer_bot import router as feedback_bot
 from routes.suggest_reply import router as suggest_reply
 from routes.hr_bot import router as hr
+from routes.Job_requisition import router as job_router
 from dotenv import load_dotenv
 
 
@@ -35,6 +36,7 @@ app.include_router(resume_sim)
 app.include_router(hr)
 app.include_router(feedback_bot)
 app.include_router(suggest_reply)
+app.include_router(job_router)
 app.include_router(test_router)
 
 if __name__ == "__main__":
