@@ -363,6 +363,3 @@ async def jd_generator(query, id):
         message.append({"role":"assistant","content":response.choices[0].message.content})
     store_chat_history(message, id)
     return {"chat":response.choices[0].message.content, "canvas_flag": canvas_flag(message)}
-
-
-
