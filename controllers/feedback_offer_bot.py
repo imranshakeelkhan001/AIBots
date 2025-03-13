@@ -5,41 +5,53 @@ from dotenv import load_dotenv
 from pydantic import BaseModel
 import pandas as pd
 import json
+from datetime import datetime
 
 load_dotenv()
 client = OpenAI()
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
-
-from datetime import datetime
-
 def current_date():
     return datetime.now().strftime("%d %B %Y")
+
+def explicit_string_match(history):
+    """
+    Check if the assistant has asked 'how was the feedback for the candidate?' explicitly.
+    """
+    for entry in history:
+        if entry['role'] == 'assistant' and 'how was the feedback for the candidate' in entry['content'].lower():
+            return True
+    return False
 
 class CalendarEvent(BaseModel):
     feed_back: bool
     offer_letter:bool
     offer_send: bool
 
-
-
-
-
-
-
-
 def canvas_flag(history):
-    history[0] = {"role": "system", "content": "feed_back: Make sure to turn this flag True, When you ask from user 'how was the feed back for the candidate?'"
-                                               "offer_letter: Turn this flag True when you generate the complete offer letter."
-                                               "offer_send: Turn this flag True when user says that offer letter is approved from my side."}
+    """
+    Determines flags using explicit string matching first. If not found, calls OpenAI for enhanced accuracy.
+    """
+    # Step 1: Check using explicit string matching
+    if explicit_string_match(history):
+        print("Explicit string match found.")
+        return {"feed_back": True, "offer_letter": False, "offer_send": False}
+    
+    history[0] = {
+    "role": "system",
+    "content": (
+        "Your task is to accurately track and update specific flags based on user interactions. Follow these strict rules:\n"
+        "feed_back: Set this flag to `True` ONLY when you ask the user: 'How was the feedback for the candidate?'. Do NOT set this flag under any other condition.\n"
+        "offer_letter: Set this flag to `True` ONLY when you generate a **complete** offer letter.\n"
+        "- **offer_send**: Set this flag to `True` ONLY when the user confirms that the offer letter is 'approved from my side'. Do NOT assume approval unless the user states it.\n"
+        "You have to check the chat carefully Strictly follow these instructions and do not set the flags under any ambiguous conditions."
+    )
+}
 
     print(history)
     completion = client.beta.chat.completions.parse(
         model="gpt-4o-2024-08-06",
-         messages= history,
-        #     {"role": "system", "content": "Extract  a boolean flag from the given chat that if the assistant generated any Job description or not"},
-        #     {"role": "user", "content": f"{history[1:]}"},
-        # ],
+        messages= history,
         response_format=CalendarEvent,
     )
 
@@ -335,9 +347,6 @@ def get_chat_by_id(chat_id, csv_file="offer_chat_history.csv"):
 async def offer_generator(query, id):
     message = []
     # job = list_of_selected_candidates()
-    new_jobs = {"role": "assistant", "content":f"here is list of selected candidates with job titles {str(list_of_selected_candidates())}. if it is empty than there is no selected candidates " }
-    print(new_jobs)
-    message.append(new_jobs)
     history = pd.read_csv("offer_chat_history.csv")
     columns = history['id']
     if int(id) in list(columns):
@@ -349,6 +358,12 @@ async def offer_generator(query, id):
         message.append(new_rol)
     elif not int(id) in list(columns):
         print("inside elif")
+        
+        # Only add the list of selected candidates once at the start of the conversation
+        new_jobs = {"role": "assistant", "content":f"here is list of selected candidates with job titles {str(list_of_selected_candidates())}. if it is empty than there is no selected candidates " }
+        print(new_jobs)
+        
+        message.append(new_jobs)
         message.append(system_message)
         new_rol = {"role":"user", "content": query}
         message.append(new_rol)
@@ -389,6 +404,3 @@ async def offer_generator(query, id):
             "offer_acceptance": offer_acceptance
         }
     }
-
-
-
